@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.266.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "sequelize": "^4.38.0",
+    "sqlite": "^2.9.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "supertest": "^3.1.0"
+  },
+  "scripts": {
+    "test": "mocha api/user/user.spec.js -w",
+    "start": "node bin/www.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
